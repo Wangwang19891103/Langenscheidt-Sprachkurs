@@ -1,0 +1,21 @@
+Bugs:
+
+- Sprachkurs "ES" before "ESPIC", doesnt get to ESPIC production but reports ES as incomplete
+-> added ambiguity support for or_expressionlists at least
+- capturing OptionMany objects (seems nodes arent visited twice to close the capture object)
+- capturing Group nodes (seems to have to do with ambiguity of "(" and not defining a key in "("..")" )
+
+
+Optimizations:
+
+- GrammarTree: in scan functions do not create node before first success -> less performance loss
+
+
+Ideas:
+
+- functions in general. could be prefixed with "_", e.g. "_func(arg1, arg2)"
+- function to join tokens with a token as their separator, e.g. _join("String1", "String2", "String3", "|")
+- repetitions (option many) with exact numbers, e.g. {"|"}(5)
+
+
+Support "\"lala\"" (meaning escapes quotes) in grammar files

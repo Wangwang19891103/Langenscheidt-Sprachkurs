@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Gdb-tw-j4m" customClass="ExerciseCorrectionView">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="302"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fN2-k7-zHS">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="25"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cWG-Iw-rso">
+                            <rect key="frame" x="0.0" y="12" width="280" height="1"/>
+                            <color key="backgroundColor" white="0.90370370369999997" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="bdG-2V-UoX"/>
+                            </constraints>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cross_LTXT" translatesAutoresizingMaskIntoConstraints="NO" id="Ylm-Re-lZY">
+                            <rect key="frame" x="128" y="0.0" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="fdQ-ql-Lba"/>
+                                <constraint firstAttribute="height" constant="25" id="mon-yH-Rk6"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="cWG-Iw-rso" firstAttribute="leading" secondItem="fN2-k7-zHS" secondAttribute="leading" id="1Ur-nB-Lg9"/>
+                        <constraint firstItem="cWG-Iw-rso" firstAttribute="centerY" secondItem="fN2-k7-zHS" secondAttribute="centerY" id="3eB-Bu-WUL"/>
+                        <constraint firstItem="Ylm-Re-lZY" firstAttribute="top" secondItem="fN2-k7-zHS" secondAttribute="top" id="Pgz-eM-zRZ"/>
+                        <constraint firstAttribute="trailing" secondItem="cWG-Iw-rso" secondAttribute="trailing" id="XNW-Bt-85L"/>
+                        <constraint firstAttribute="bottom" secondItem="Ylm-Re-lZY" secondAttribute="bottom" id="dzd-XX-iim"/>
+                        <constraint firstItem="Ylm-Re-lZY" firstAttribute="centerX" secondItem="fN2-k7-zHS" secondAttribute="centerX" id="wlq-gd-dg4"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DoK-Ho-Lbn">
+                    <rect key="frame" x="0.0" y="40" width="280" height="14"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Das ist leider falsch! ">
+                            <attributes>
+                                <color key="NSColor" red="0.82352941176470584" green="0.066666666666666666" blue="0.066666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Richtige ">
+                            <attributes>
+                                <color key="NSColor" red="0.82352941176470584" green="0.066666666666666666" blue="0.066666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                <font key="NSOriginalFont" size="15" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Antwort:">
+                            <attributes>
+                                <color key="NSColor" red="0.82352941176470584" green="0.066666666666666666" blue="0.066666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l95-MD-0qc" customClass="StackView">
+                    <rect key="frame" x="0.0" y="69" width="280" height="233"/>
+                    <accessibility key="accessibilityConfiguration" label="CorrectionView">
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                    <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="DoK-Ho-Lbn" firstAttribute="leading" secondItem="Gdb-tw-j4m" secondAttribute="leadingMargin" id="390-j0-7A0"/>
+                <constraint firstAttribute="bottom" secondItem="l95-MD-0qc" secondAttribute="bottom" id="3gX-Al-d2i"/>
+                <constraint firstItem="fN2-k7-zHS" firstAttribute="top" secondItem="Gdb-tw-j4m" secondAttribute="top" id="8G1-Jo-iZU"/>
+                <constraint firstItem="l95-MD-0qc" firstAttribute="leading" secondItem="Gdb-tw-j4m" secondAttribute="leadingMargin" id="CC2-Hn-LYl"/>
+                <constraint firstAttribute="trailingMargin" secondItem="l95-MD-0qc" secondAttribute="trailing" id="DSC-eh-amS"/>
+                <constraint firstAttribute="trailingMargin" secondItem="fN2-k7-zHS" secondAttribute="trailing" id="MDT-KX-AWl"/>
+                <constraint firstAttribute="trailingMargin" secondItem="DoK-Ho-Lbn" secondAttribute="trailing" id="VzW-KF-qpX"/>
+                <constraint firstItem="DoK-Ho-Lbn" firstAttribute="top" secondItem="fN2-k7-zHS" secondAttribute="bottom" constant="15" id="ahs-WW-Q0i"/>
+                <constraint firstItem="fN2-k7-zHS" firstAttribute="leading" secondItem="Gdb-tw-j4m" secondAttribute="leadingMargin" id="m8o-uv-gBh"/>
+                <constraint firstItem="l95-MD-0qc" firstAttribute="top" secondItem="DoK-Ho-Lbn" secondAttribute="bottom" constant="15" id="yKD-mN-vKa"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+            <connections>
+                <outlet property="textContainer" destination="l95-MD-0qc" id="5kY-Qh-5e7"/>
+            </connections>
+            <point key="canvasLocation" x="336" y="416"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Cross_LTXT" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,49 @@
+SubscriptionManager
+
+- Shop / load products
+--> kein internet: check
+
+- successfully purchased product
+--> thanks message: check
+
+
+
+
+----------------
+
+Code ranges:
+
+DownloadManager: 100
+SubscriptionManager: 200
+SubscriptionReceiptManager: 300
+HelpViewController: 500
+InviteFriendsHandler: 600
+
+
+----------------
+
+Todo messages:
+
+HelpViewController:
+- cant send mail
+- failed to send
+- sent successfully
+
+InviteFriendsHandler:
+- sent successfully
+(rest from HelpViewController)
+
+Shop:
+- purchasing
+- purchase failed (no error thrown, no code)
+(- request products failed doesnt exist in API?)
+- kauf abbrechen --> fehler --> message anpassen
+
+Receipt manager/validation:
+*all*
+
+ActiveSubController
+- cells
+
+RestoreHandler
+*all*

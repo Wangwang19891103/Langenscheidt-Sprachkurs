@@ -1,0 +1,47 @@
+important:
+
+1. user can not manually START the pearl in the middle, at any exercise
+2. user can START a pearl or CONTINUE a pearl
+3. when user continues a pearl that means that he has completed the exercises from the start up to a point at an earlier time (thus score events are present)
+
+the score screen presents the achieved score and the max score
+
+when the score screen is presented, it is made certain that both these information are present because all exercises within the the pearl have been processed.
+
+to make sure that these information is present, both achieved score and max score per exercise must be stored in the user database.
+
+since the UserExerciseCluster class adds score up from several passes, the UserExerciseClusterEvent must be used.
+
+the cluster event class must also store the RUN of the lesson
+
+the achieved score on the score screen is not the same as the TOTAL score achieved in the pearl at all time. It is also not the TOTAL score achieved in the current RUN. It is the sum of all highest achieved scores per exercise. Thus, only one achieved score per exercise counts, and they are not added.
+
+
+
+------------ NEW VERSION --------------
+
+User can not do exercises multiple times in the same run because entering a pearl manually will lead him to the next unprocessed exercise
+
+
+
+
+
+
+
+
+
+
+
+
+Continuing pearls
+---------------------------------
+
+Upon entering a pearl (by either 1. thru manual navigation or 2. automatic navigation) there are 3 cases:
+- pearl is new (0%) -> start pearl at first exercise and gain points
+- pearl is complete (100%) -> restart pearl at first exercise and gain more points
+- pearl is started (30%) -> continue pearl at exercise X
+
+
+Upon hitting the continue button:
+- determine last exercisecluster where user was active
+- determine the next cluster to that cluster (if necessary skipping pearls and clusters and even circling back to the start of the lesson)

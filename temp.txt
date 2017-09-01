@@ -1,0 +1,459 @@
+2016-04-05 15:44:01.965 DialogTest1[84005:6218423] Dialog (course: 10 - 'Basics',	lesson: 100 - 'Wie geht's? 1')
+2016-04-05 15:44:01.966 DialogTest1[84005:6218423] Dialog (course: 20 - 'Aufbaukurs für jeden Tag',	lesson: 210 - 'Shopping 1')
+2016-04-05 15:44:01.966 DialogTest1[84005:6218423] Dialog (course: 20 - 'Aufbaukurs für jeden Tag',	lesson: 250 - 'Im Restaurant 1')
+2016-04-05 15:44:01.967 DialogTest1[84005:6218423] Dialog (course: 20 - 'Aufbaukurs für jeden Tag',	lesson: 300 - 'Sightseeing 1')
+2016-04-05 15:44:01.967 DialogTest1[84005:6218423] Dialog (course: 20 - 'Aufbaukurs für jeden Tag',	lesson: 310 - 'Sightseeing 2')
+2016-04-05 15:44:01.967 DialogTest1[84005:6218423] Dialog (course: 20 - 'Aufbaukurs für jeden Tag',	lesson: 350 - 'Hobbies & Sport 1')
+2016-04-05 15:44:01.967 DialogTest1[84005:6218423] Dialog (course: 20 - 'Aufbaukurs für jeden Tag',	lesson: 390 - 'Freizeit 1')
+2016-04-05 15:44:01.968 DialogTest1[84005:6218423] Dialog (course: 20 - 'Aufbaukurs für jeden Tag',	lesson: 430 - 'Alltag 1')
+2016-04-05 15:44:01.968 DialogTest1[84005:6218423] Dialog (course: 30 - 'Aufbaukurs für die Reise',	lesson: 520 - 'Reisepläne 1')
+2016-04-05 15:44:01.968 DialogTest1[84005:6218423] Dialog (course: 30 - 'Aufbaukurs für die Reise',	lesson: 600 - 'Ankunft 1')
+2016-04-05 15:44:01.970 DialogTest1[84005:6218423] Dialog (course: 30 - 'Aufbaukurs für die Reise',	lesson: 640 - 'Im Hotel 1')
+2016-04-05 15:44:01.970 DialogTest1[84005:6218423] Dialog (course: 30 - 'Aufbaukurs für die Reise',	lesson: 680 - 'Ein Notfall 1')
+2016-04-05 15:44:01.970 DialogTest1[84005:6218423] Dialog (course: 30 - 'Aufbaukurs für die Reise',	lesson: 720 - 'Polizei 1')
+2016-04-05 15:44:01.971 DialogTest1[84005:6218423] Dialog (course: 30 - 'Aufbaukurs für die Reise',	lesson: 730 - 'Polizei 2')
+2016-04-05 15:44:01.971 DialogTest1[84005:6218423] Dialog (course: 40 - 'Business English',	lesson: 860 - 'E-Mails 1')
+2016-04-05 15:44:01.971 DialogTest1[84005:6218423] Dialog (course: 40 - 'Business English',	lesson: 870 - 'E-Mails 2')
+2016-04-05 15:44:01.971 DialogTest1[84005:6218423] Dialog (course: 40 - 'Business English',	lesson: 900 - 'Terminkalender 1')
+2016-04-05 15:44:01.972 DialogTest1[84005:6218423] Dialog (course: 40 - 'Business English',	lesson: 980 - 'Meetings 1')
+2016-04-05 15:44:01.972 DialogTest1[84005:6218423] Dialog (course: 40 - 'Business English',	lesson: 1020 - 'Berufsweg 1')
+2016-04-05 15:44:01.972 DialogTest1[84005:6218423] Dialog (course: 40 - 'Business English',	lesson: 1060 - 'Ein neuer Job')
+
+
+
+
+
+
+---------- alle exercises mit popups
+
+2016-05-02 18:31:12.097 Langenscheidt-Sprachkurs[2861:108818] course: Basics --- lesson: Small Talk: Grammatik --- pearl: Adverbien der Häufigkeit --- cluster id: 10 --- ex id: 0 --- type: Scrambled Sentences
+2016-05-02 18:31:12.098 Langenscheidt-Sprachkurs[2861:108818] course: Aufbaukurs für die Reise --- lesson: Ein Ausflug: Grammatik --- pearl: Das Gerund (II) --- cluster id: 10 --- ex id: 0 --- type: Lückentext mit Standard-Keyboard
+2016-05-02 18:31:12.098 Langenscheidt-Sprachkurs[2861:108818] course: Aufbaukurs für die Reise --- lesson: Polizei: Grammatik --- pearl: Alleinstehende Possessivpronomen --- cluster id: 10 --- ex id: 0 --- type: Lückentext mit Standard-Keyboard
+2016-05-02 18:31:12.099 Langenscheidt-Sprachkurs[2861:108818] course: Aufbaukurs für jeden Tag --- lesson: Hobbies & Sport: Grammatik --- pearl: Das Reflexivpronomen --- cluster id: 10 --- ex id: 0 --- type: Lückentext mit Custom-Keyboard
+2016-05-02 18:31:12.099 Langenscheidt-Sprachkurs[2861:108818] course: Aufbaukurs für die Reise --- lesson: Ein Notfall: Grammatik --- pearl: Die Adverbien der Art und Weise (II) --- cluster id: 10 --- ex id: 0 --- type: Lückentext mit Standard-Keyboard
+2016-05-02 18:31:12.099 Langenscheidt-Sprachkurs[2861:108818] course: Business English --- lesson: Meetings: Grammatik --- pearl: Die Fragepronomen --- cluster id: 10 --- ex id: 0 --- type: Lückentext mit Standard-Keyboard
+2016-05-02 18:31:12.171 Langenscheidt-Sprachkurs[2861:108818] course: Aufbaukurs für die Reise --- lesson: Unterwegs: Grammatik --- pearl: Die Uhrzeit --- cluster id: 10 --- ex id: 1 --- type: Lückentext mit Custom-Keyboard
+2016-05-02 18:31:12.171 Langenscheidt-Sprachkurs[2861:108818] course: Basics --- lesson: Im Pub: Grammatik  --- pearl: „Falsche Freunde“ --- cluster id: 10 --- ex id: 1 --- type: Lückentext mit Standard-Keyboard (tabellarisch)
+2016-05-02 18:31:12.172 Langenscheidt-Sprachkurs[2861:108818] course: Aufbaukurs für die Reise --- lesson: Im Hotel: Grammatik --- pearl: Die vollendete Gegenwart (I) --- cluster id: 10 --- ex id: 1 --- type: Lückentext mit Standard-Keyboard
+2016-05-02 18:31:12.172 Langenscheidt-Sprachkurs[2861:108818] course: Aufbaukurs für jeden Tag --- lesson: Alltag: Grammatik --- pearl: Die Vergangenheit von 'to be' --- cluster id: 10 --- ex id: 1 --- type: Lückentext mit Standard-Keyboard
+2016-05-02 18:31:12.192 Langenscheidt-Sprachkurs[2861:108818] course: Business English --- lesson: Termine: Grammatik --- pearl: Die indirekte Rede (II) --- cluster id: 10 --- ex id: 1 --- type: Lückentext mit Standard-Keyboard
+2016-05-02 18:31:12.193 Langenscheidt-Sprachkurs[2861:108818] course: Aufbaukurs für die Reise --- lesson: Polizei: Grammatik --- pearl: Das 'present perfect' --- cluster id: 10 --- ex id: 2 --- type: Lückentext mit Standard-Keyboard
+
+
+
+
+---------- alle SNAKE mit toptext
+
+2016-05-03 19:04:43.957 Langenscheidt-Sprachkurs[6448:261028] course: Business English --- lesson: E-Mails: Grammatik --- pearl: Telefonnummern --- cluster id: 40 --- ex id: 0 --- type: Schlange
+2016-05-03 19:04:43.958 Langenscheidt-Sprachkurs[6448:261028] course: Business English --- lesson: Business English: Kurs-Wiederholung --- pearl: Passiv und Konditionalsätze --- cluster id: 50 --- ex id: 0 --- type: Schlange
+2016-05-03 19:04:43.959 Langenscheidt-Sprachkurs[6448:261028] course: Aufbaukurs für jeden Tag --- lesson: Alltag: Wiederholung --- pearl: Grammatik --- cluster id: 40 --- ex id: 0 --- type: Schlange
+
+
+
+--- VOCAB FLOW mit explanation and/or toptext
+
+2016-05-03 23:37:14.519 Langenscheidt-Sprachkurs[8375:352974] course: Basics --- lesson: Begrüßungen: Grammatik --- pearl: Kurzformen und Verneinung des Verbs 'to be' --- cluster id: 30 --- ex id: 0 --- type: Vocab Flow
+2016-05-03 23:37:14.519 Langenscheidt-Sprachkurs[8375:352974] course: Business English --- lesson: Berufsweg: Grammatik --- pearl: Die wichtigsten Konjunktionen --- cluster id: 10 --- ex id: 0 --- type: Vocab Flow
+2016-05-03 23:37:14.520 Langenscheidt-Sprachkurs[8375:352974] course: Aufbaukurs für jeden Tag --- lesson: Sightseeing: Grammatik --- pearl: Modale Hilfsverben --- cluster id: 10 --- ex id: 0 --- type: Vocab Flow
+
+
+
+
+---------- When managed object context successfully (?) saves data to persistent store
+
+2016-05-09 14:49:10.250 ImporterSplit[21807:1295027] CoreData: sql: BEGIN EXCLUSIVE
+2016-05-09 14:49:10.250 ImporterSplit[21807:1295027] CoreData: sql: SELECT Z_MAX FROM Z_PRIMARYKEY WHERE Z_ENT = ?
+2016-05-09 14:49:10.251 ImporterSplit[21807:1295027] CoreData: sql: UPDATE Z_PRIMARYKEY SET Z_MAX = ? WHERE Z_ENT = ? AND Z_MAX = ?
+2016-05-09 14:49:10.253 ImporterSplit[21807:1295027] CoreData: sql: COMMIT
+2016-05-09 14:49:10.259 ImporterSplit[21807:1295027] CoreData: sql: BEGIN EXCLUSIVE
+2016-05-09 14:49:10.259 ImporterSplit[21807:1295027] CoreData: sql: INSERT INTO ZLESSON(Z_PK, Z_ENT, Z_OPT, ZCOURSE, ZID, ZIMAGEFILE, ZTITLE) VALUES(?, ?, ?, ?, ?, ?, ?)
+2016-05-09 14:49:10.260 ImporterSplit[21807:1295027] CoreData: sql: INSERT INTO ZLESSON(Z_PK, Z_ENT, Z_OPT, ZCOURSE, ZID, ZIMAGEFILE, ZTITLE) VALUES(?, ?, ?, ?, ?, ?, ?)
+2016-05-09 14:49:10.260 ImporterSplit[21807:1295027] CoreData: sql: INSERT INTO ZLESSON(Z_PK, Z_ENT, Z_OPT, ZCOURSE, ZID, ZIMAGEFILE, ZTITLE) VALUES(?, ?, ?, ?, ?, ?, ?)
+...........................................................................
+.........................................
+..............................................
+VALUES(?, ?, ?, ?, ?, ?, ?)
+2016-05-09 14:49:10.346 ImporterSplit[21807:1295027] CoreData: sql: INSERT INTO ZLESSON(Z_PK, Z_ENT, Z_OPT, ZCOURSE, ZID, ZIMAGEFILE, ZTITLE) VALUES(?, ?, ?, ?, ?, ?, ?)
+2016-05-09 14:49:10.346 ImporterSplit[21807:1295027] CoreData: sql: INSERT INTO ZLESSON(Z_PK, Z_ENT, Z_OPT, ZCOURSE, ZID, ZIMAGEFILE, ZTITLE) VALUES(?, ?, ?, ?, ?, ?, ?)
+2016-05-09 14:49:10.347 ImporterSplit[21807:1295027] CoreData: sql: INSERT INTO ZLESSON(Z_PK, Z_ENT, Z_OPT, ZCOURSE, ZID, ZIMAGEFILE, ZTITLE) VALUES(?, ?, ?, ?, ?, ?, ?)
+2016-05-09 14:49:10.347 ImporterSplit[21807:1295027] CoreData: sql: COMMIT
+2016-05-09 14:49:10.348 ImporterSplit[21807:1295027] CoreData: sql: pragma page_count
+2016-05-09 14:49:10.348 ImporterSplit[21807:1295027] CoreData: annotation: sql execution time: 0.0003s
+2016-05-09 14:49:10.348 ImporterSplit[21807:1295027] CoreData: sql: pragma freelist_count
+2016-05-09 14:49:10.348 ImporterSplit[21807:1295027] CoreData: annotation: sql execution time: 0.0002s
+
+
+
+
+---------------- response object from receipt validation server (sandbox)
+
+<NSHTTPURLResponse: 0x14f5d7970> { URL: https://sandbox.itunes.apple.com/verifyReceipt } { status code: 200, headers {
+"Cache-Control" = "private, no-cache, no-store, no-transform, must-revalidate, max-age=0";
+Connection = "keep-alive";
+"Content-Encoding" = gzip;
+"Content-Length" = 6417;
+Date = "Thu, 19 May 2016 17:10:31 GMT";
+Expires = "Thu, 19 May 2016 17:10:31 GMT";
+"Set-Cookie" = "itspod=100; version=\"1\"; expires=Sun, 19-Jun-2016 17:10:31 GMT; path=/; domain=.apple.com, mzf_in=990256; version=\"1\"; path=/WebObjects; domain=.apple.com; secure; HttpOnly, mzf_dr=0; version=\"1\"; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/WebObjects; domain=.apple.com";
+"Strict-Transport-Security" = "max-age=31536000";
+"apple-originating-system" = MZFinance;
+"apple-seq" = 0;
+"apple-timing-app" = "527 ms";
+"apple-tk" = false;
+"edge-control" = "no-store, cache-maxage=0";
+itspod = 100;
+pod = 100;
+"x-apple-application-instance" = 990256;
+"x-apple-application-site" = SB;
+"x-apple-jingle-correlation-key" = FZPBTCSPFM6TQ2OOO43L5EGBGU;
+"x-apple-lokamai-no-cache" = true;
+"x-apple-orig-url" = "https://sandbox.itunes.apple.com/WebObjects/MZFinance.woa/wa/verifyReceipt";
+"x-apple-request-uuid" = "2e5e198a-4f2b-3d38-69ce-7736be90c135";
+"x-apple-translated-wo-url" = "/WebObjects/MZFinance.woa/wa/verifyReceipt";
+"x-frame-options" = SAMEORIGIN;
+"x-webobjects-loadaverage" = 1;
+} }
+
+
+
+
+---------------------- LTXT mit toptext
+
+2016-05-27 15:35:02.000 Langenscheidt-Sprachkurs[44286:6148151] course: Basics --- lesson: Basics: Kurs-Wiederholung --- pearl: Wortschatz --- cluster id: 50 --- ex id: 0 --- type: Lückentext mit Custom-Keyboard
+2016-05-27 15:35:02.001 Langenscheidt-Sprachkurs[44286:6148151] course: Basics --- lesson: Begrüßungen: Grammatik --- pearl: Kurzformen und Verneinung des Verbs 'to be' --- cluster id: 40 --- ex id: 0 --- type: Lückentext mit Custom-Keyboard
+2016-05-27 15:35:02.002 Langenscheidt-Sprachkurs[44286:6148151] course: Basics --- lesson: Begrüßungen: Wiederholung --- pearl: Grammatik --- cluster id: 40 --- ex id: 0 --- type: Lückentext mit Custom-Keyboard
+
+
+
+
+
+---------- ltxt klammern parsen
+
+to enjoy <i>genießen<i> – [Enjoy] your stay! (<i>Genieße deinen Aufenthalt ./Genießt euren Aufenthalt./Genießen Sie Ihren Aufenthalt.</i>)
+
+
+
+
+
+----------------- Wenn ein Kauf von einem anderen Device empfangen wird (Scheinbar oder?)
+
+Achtung: Event "Purchased" wird geschmissen, deswegen 2. validation nacheinander
+
+2016-06-06 01:43:35.794 Langenscheidt-Sprachkurs[2015:1314822] SubscriptionManager - observer count: 1
+2016-06-06 01:43:35.837 Langenscheidt-Sprachkurs[2015:1314822] SubscriptionManager - _updateHasActiveSubscription (allowValidation: 1)
+2016-06-06 01:43:35.837 Langenscheidt-Sprachkurs[2015:1314822] ... expiration date is present
+2016-06-06 01:43:35.837 Langenscheidt-Sprachkurs[2015:1314822] Subscription has expired (-3 minutes)
+2016-06-06 01:43:35.838 Langenscheidt-Sprachkurs[2015:1314822] ... expiration date is expired
+2016-06-06 01:43:35.838 Langenscheidt-Sprachkurs[2015:1314822] ... validation available: yes
+2016-06-06 01:43:35.838 Langenscheidt-Sprachkurs[2015:1314822] ... requesting receipt validation
+2016-06-06 01:43:35.838 Langenscheidt-Sprachkurs[2015:1314822] requesting update expiration date (long check = receipt validation with iTunes server)
+2016-06-06 01:43:35.896 Langenscheidt-Sprachkurs[2015:1314822]  INFO: Reveal Server started (Protocol Version 25).
+2016-06-06 01:43:35.911 Langenscheidt-Sprachkurs[2015:1314822] PearlViewController - viewWillAppear (<PearlViewController: 0x15c5eea70>)
+2016-06-06 01:43:35.914 Langenscheidt-Sprachkurs[2015:1314822] PearlViewController: updateSubscriptionStatus
+2016-06-06 01:43:35.915 Langenscheidt-Sprachkurs[2015:1314822] SubscriptionManager - _updateHasActiveSubscription (allowValidation: 1)
+2016-06-06 01:43:35.916 Langenscheidt-Sprachkurs[2015:1314822] ... expiration date is present
+2016-06-06 01:43:35.916 Langenscheidt-Sprachkurs[2015:1314822] Subscription has expired (-3 minutes)
+2016-06-06 01:43:35.917 Langenscheidt-Sprachkurs[2015:1314822] ... expiration date is expired
+2016-06-06 01:43:35.917 Langenscheidt-Sprachkurs[2015:1314822] Time since last validation: 0.00 minutes
+2016-06-06 01:43:35.918 Langenscheidt-Sprachkurs[2015:1314822] ... validation available: no
+2016-06-06 01:43:35.933 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:35.955 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:35.966 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:35.980 Langenscheidt-Sprachkurs[2015:1314822] header superview: <UITableView: 0x15c8c1800; frame = (0 0; 320 519); clipsToBounds = YES; autoresize = W+H; gestureRecognizers = <NSArray: 0x15c7076f0>; layer = <CALayer: 0x15c5f63c0>; contentOffset: {0, 0}; contentSize: {320, 258}>
+2016-06-06 01:43:35.997 Langenscheidt-Sprachkurs[2015:1314822] header new frame: {{0, 0}, {320, 323}}
+2016-06-06 01:43:36.042 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.049 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.051 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.053 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.060 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.072 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.079 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.082 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.086 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.088 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.096 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.104 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.113 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.117 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.118 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.121 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.130 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.136 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:36.190 Langenscheidt-Sprachkurs[2015:1314822] Unbalanced calls to begin/end appearance transitions for <TabbarController: 0x15c57bfe0>.
+2016-06-06 01:43:37.038 Langenscheidt-Sprachkurs[2015:1314822] PearlViewController - viewWillAppear (<PearlViewController: 0x15c5eea70>)
+2016-06-06 01:43:37.039 Langenscheidt-Sprachkurs[2015:1314822] PearlViewController: updateSubscriptionStatus
+2016-06-06 01:43:37.040 Langenscheidt-Sprachkurs[2015:1314822] SubscriptionManager - _updateHasActiveSubscription (allowValidation: 1)
+2016-06-06 01:43:37.040 Langenscheidt-Sprachkurs[2015:1314822] ... expiration date is present
+2016-06-06 01:43:37.040 Langenscheidt-Sprachkurs[2015:1314822] Subscription has expired (-3 minutes)
+2016-06-06 01:43:37.040 Langenscheidt-Sprachkurs[2015:1314822] ... expiration date is expired
+2016-06-06 01:43:37.040 Langenscheidt-Sprachkurs[2015:1314822] Time since last validation: 0.02 minutes
+2016-06-06 01:43:37.041 Langenscheidt-Sprachkurs[2015:1314822] ... validation available: no
+2016-06-06 01:43:37.058 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:37.065 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:37.066 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:37.070 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:37.077 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:37.083 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 0
+2016-06-06 01:43:37.731 Langenscheidt-Sprachkurs[2015:1314874] RECEIPT SUCCESSFULLY VALIDATED
+2016-06-06 01:43:37.742 Langenscheidt-Sprachkurs[2015:1314874] Updated expiration date (2016-06-05 23:55:31 +0000)
+2016-06-06 01:43:37.743 Langenscheidt-Sprachkurs[2015:1314874] SubscriptionManager - _updateHasActiveSubscription (allowValidation: 0)
+2016-06-06 01:43:37.743 Langenscheidt-Sprachkurs[2015:1314874] ... expiration date is present
+2016-06-06 01:43:37.743 Langenscheidt-Sprachkurs[2015:1314874] Subscription is valid (12 minutes)
+2016-06-06 01:43:37.743 Langenscheidt-Sprachkurs[2015:1314874] ... expiration date is valid
+2016-06-06 01:43:37.744 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:37.749 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:37.750 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:37.753 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:37.760 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:37.765 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:38.059 Langenscheidt-Sprachkurs[2015:1314822] Purchased
+2016-06-06 01:43:38.059 Langenscheidt-Sprachkurs[2015:1314822] requesting update expiration date (long check = receipt validation with iTunes server)
+2016-06-06 01:43:38.146 Langenscheidt-Sprachkurs[2015:1314822] removed transaction: 1000000215671371 (date: 2016-06-05 23:40:31 +0000, state: 1)
+2016-06-06 01:43:39.925 Langenscheidt-Sprachkurs[2015:1314874] RECEIPT SUCCESSFULLY VALIDATED
+2016-06-06 01:43:39.926 Langenscheidt-Sprachkurs[2015:1314874] Updated expiration date (2016-06-05 23:55:31 +0000)
+2016-06-06 01:43:39.927 Langenscheidt-Sprachkurs[2015:1314874] SubscriptionManager - _updateHasActiveSubscription (allowValidation: 0)
+2016-06-06 01:43:39.928 Langenscheidt-Sprachkurs[2015:1314874] ... expiration date is present
+2016-06-06 01:43:39.929 Langenscheidt-Sprachkurs[2015:1314874] Subscription is valid (12 minutes)
+2016-06-06 01:43:39.930 Langenscheidt-Sprachkurs[2015:1314874] ... expiration date is valid
+2016-06-06 01:43:39.935 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:39.946 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:39.948 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:39.953 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:39.966 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+2016-06-06 01:43:39.981 Langenscheidt-Sprachkurs[2015:1314822] subscriptionActive: 1
+
+
+
+
+
+
+
+
+
+---------- all clusters in teaser DB
+
+2016-06-01 14:07:11.253 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010010 - id: 10
+2016-06-01 14:07:11.254 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010010 - id: 20
+2016-06-01 14:07:11.254 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010010 - id: 300010
+2016-06-01 14:07:11.254 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010010 - id: 300020
+2016-06-01 14:07:11.254 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010010 - id: 300030
+2016-06-01 14:07:11.255 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010010 - id: 300040
+2016-06-01 14:07:11.255 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010020 - id: 10
+2016-06-01 14:07:11.255 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010020 - id: 20
+2016-06-01 14:07:11.255 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010020 - id: 300050
+2016-06-01 14:07:11.257 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010020 - id: 300060
+2016-06-01 14:07:11.257 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010020 - id: 300070
+2016-06-01 14:07:11.258 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010020 - id: 300080
+2016-06-01 14:07:11.372 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010030 - id: 10
+2016-06-01 14:07:11.372 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010030 - id: 20
+2016-06-01 14:07:11.373 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010030 - id: 300090
+2016-06-01 14:07:11.373 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010030 - id: 300100
+2016-06-01 14:07:11.373 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010030 - id: 300110
+2016-06-01 14:07:11.373 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10010030 - id: 300120
+2016-06-01 14:07:11.373 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020040 - id: 10
+2016-06-01 14:07:11.373 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020040 - id: 20
+2016-06-01 14:07:11.374 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020040 - id: 300210
+2016-06-01 14:07:11.374 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020040 - id: 300220
+2016-06-01 14:07:11.374 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020040 - id: 300230
+2016-06-01 14:07:11.377 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020040 - id: 300240
+2016-06-01 14:07:11.377 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020050 - id: 10
+2016-06-01 14:07:11.377 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020050 - id: 20
+2016-06-01 14:07:11.377 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020050 - id: 300170
+2016-06-01 14:07:11.377 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020050 - id: 300180
+2016-06-01 14:07:11.377 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020050 - id: 300190
+2016-06-01 14:07:11.378 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020050 - id: 300200
+2016-06-01 14:07:11.378 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020060 - id: 10
+2016-06-01 14:07:11.378 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020060 - id: 20
+2016-06-01 14:07:11.378 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020060 - id: 300130
+2016-06-01 14:07:11.378 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020060 - id: 300140
+2016-06-01 14:07:11.378 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020060 - id: 300150
+2016-06-01 14:07:11.379 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10020060 - id: 300160
+2016-06-01 14:07:11.379 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210320 - id: 10
+2016-06-01 14:07:11.379 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210320 - id: 20
+2016-06-01 14:07:11.379 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210320 - id: 301240
+2016-06-01 14:07:11.379 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210320 - id: 301250
+2016-06-01 14:07:11.379 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210320 - id: 301260
+2016-06-01 14:07:11.379 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210320 - id: 301270
+2016-06-01 14:07:11.501 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210330 - id: 10
+2016-06-01 14:07:11.502 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210330 - id: 20
+2016-06-01 14:07:11.502 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210330 - id: 301280
+2016-06-01 14:07:11.502 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210330 - id: 301290
+2016-06-01 14:07:11.502 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210330 - id: 301300
+2016-06-01 14:07:11.502 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210330 - id: 301310
+2016-06-01 14:07:11.503 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210340 - id: 10
+2016-06-01 14:07:11.503 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210340 - id: 20
+2016-06-01 14:07:11.503 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210340 - id: 301320
+2016-06-01 14:07:11.503 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210340 - id: 301330
+2016-06-01 14:07:11.503 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210340 - id: 301340
+2016-06-01 14:07:11.503 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10210340 - id: 301350
+2016-06-01 14:07:11.504 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220350 - id: 10
+2016-06-01 14:07:11.504 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220350 - id: 20
+2016-06-01 14:07:11.504 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220350 - id: 301360
+2016-06-01 14:07:11.504 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220350 - id: 301370
+2016-06-01 14:07:11.504 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220350 - id: 301380
+2016-06-01 14:07:11.504 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220350 - id: 301390
+2016-06-01 14:07:11.505 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220360 - id: 10
+2016-06-01 14:07:11.505 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220360 - id: 20
+2016-06-01 14:07:11.505 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220360 - id: 301400
+2016-06-01 14:07:11.505 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220360 - id: 301410
+2016-06-01 14:07:11.505 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220360 - id: 301420
+2016-06-01 14:07:11.505 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220360 - id: 301430
+2016-06-01 14:07:11.506 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220370 - id: 10
+2016-06-01 14:07:11.506 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220370 - id: 20
+2016-06-01 14:07:11.506 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220370 - id: 301440
+2016-06-01 14:07:11.557 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220370 - id: 301450
+2016-06-01 14:07:11.557 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220370 - id: 301460
+2016-06-01 14:07:11.557 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10220370 - id: 301470
+2016-06-01 14:07:11.557 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520720 - id: 10
+2016-06-01 14:07:11.558 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520720 - id: 20
+2016-06-01 14:07:11.559 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520720 - id: 302820
+2016-06-01 14:07:11.559 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520720 - id: 302830
+2016-06-01 14:07:11.560 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520720 - id: 302840
+2016-06-01 14:07:11.560 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520720 - id: 302850
+2016-06-01 14:07:11.560 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520730 - id: 10
+2016-06-01 14:07:11.561 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520730 - id: 20
+2016-06-01 14:07:11.561 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520730 - id: 302860
+2016-06-01 14:07:11.561 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520730 - id: 302870
+2016-06-01 14:07:11.564 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520730 - id: 302880
+2016-06-01 14:07:11.564 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10520730 - id: 302890
+2016-06-01 14:07:11.564 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530740 - id: 10
+2016-06-01 14:07:11.564 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530740 - id: 20
+2016-06-01 14:07:11.564 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530740 - id: 302900
+2016-06-01 14:07:11.565 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530740 - id: 302910
+2016-06-01 14:07:11.565 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530740 - id: 302920
+2016-06-01 14:07:11.565 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530740 - id: 302930
+2016-06-01 14:07:11.565 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530750 - id: 10
+2016-06-01 14:07:11.565 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530750 - id: 20
+2016-06-01 14:07:11.609 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530750 - id: 302940
+2016-06-01 14:07:11.609 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530750 - id: 302950
+2016-06-01 14:07:11.609 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530750 - id: 302960
+2016-06-01 14:07:11.609 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10530750 - id: 302970
+2016-06-01 14:07:11.610 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821040 - id: 10
+2016-06-01 14:07:11.610 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821040 - id: 20
+2016-06-01 14:07:11.610 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821040 - id: 304100
+2016-06-01 14:07:11.610 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821040 - id: 304110
+2016-06-01 14:07:11.610 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821040 - id: 304120
+2016-06-01 14:07:11.611 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821040 - id: 304130
+2016-06-01 14:07:11.611 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821050 - id: 10
+2016-06-01 14:07:11.624 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821050 - id: 20
+2016-06-01 14:07:11.625 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821050 - id: 304140
+2016-06-01 14:07:11.625 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821050 - id: 304150
+2016-06-01 14:07:11.625 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821050 - id: 304160
+2016-06-01 14:07:11.625 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10821050 - id: 304170
+2016-06-01 14:07:11.625 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831060 - id: 10
+2016-06-01 14:07:11.625 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831060 - id: 20
+2016-06-01 14:07:11.626 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831060 - id: 304180
+2016-06-01 14:07:11.626 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831060 - id: 304190
+2016-06-01 14:07:11.626 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831060 - id: 304200
+2016-06-01 14:07:11.626 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831060 - id: 304210
+2016-06-01 14:07:11.712 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831070 - id: 10
+2016-06-01 14:07:11.712 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831070 - id: 20
+2016-06-01 14:07:11.713 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831070 - id: 304220
+2016-06-01 14:07:11.713 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831070 - id: 304230
+2016-06-01 14:07:11.713 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 10831070 - id: 304240
+2016-06-01 14:07:11.713 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 20010010 - id: 10
+2016-06-01 14:07:11.713 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 20020010 - id: 10
+2016-06-01 14:07:11.713 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 20210010 - id: 10
+2016-06-01 14:07:11.713 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 20220010 - id: 10
+2016-06-01 14:07:11.714 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 20520010 - id: 10
+2016-06-01 14:07:11.714 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 20530010 - id: 10
+2016-06-01 14:07:11.714 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 20820010 - id: 10
+2016-06-01 14:07:11.714 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 20830010 - id: 10
+2016-06-01 14:07:11.715 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30030010 - id: 10
+2016-06-01 14:07:11.715 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30030010 - id: 20
+2016-06-01 14:07:11.715 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30030010 - id: 30
+2016-06-01 14:07:11.715 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30030010 - id: 40
+2016-06-01 14:07:11.715 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30030020 - id: 10
+2016-06-01 14:07:11.715 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30030020 - id: 20
+2016-06-01 14:07:11.715 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30030020 - id: 30
+2016-06-01 14:07:11.716 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30030020 - id: 40
+2016-06-01 14:07:11.716 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30030020 - id: 50
+2016-06-01 14:07:11.716 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230010 - id: 10
+2016-06-01 14:07:11.731 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230010 - id: 20
+2016-06-01 14:07:11.732 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230010 - id: 30
+2016-06-01 14:07:11.732 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230010 - id: 40
+2016-06-01 14:07:11.732 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230020 - id: 10
+2016-06-01 14:07:11.732 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230020 - id: 20
+2016-06-01 14:07:11.732 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230020 - id: 30
+2016-06-01 14:07:11.732 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230020 - id: 40
+2016-06-01 14:07:11.733 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230020 - id: 50
+2016-06-01 14:07:11.733 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230030 - id: 10
+2016-06-01 14:07:11.733 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230030 - id: 20
+2016-06-01 14:07:11.733 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230030 - id: 30
+2016-06-01 14:07:11.746 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230030 - id: 40
+2016-06-01 14:07:11.746 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230040 - id: 10
+2016-06-01 14:07:11.747 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230040 - id: 20
+2016-06-01 14:07:11.747 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230040 - id: 30
+2016-06-01 14:07:11.747 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30230040 - id: 40
+2016-06-01 14:07:11.747 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540010 - id: 10
+2016-06-01 14:07:11.747 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540010 - id: 20
+2016-06-01 14:07:11.747 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540010 - id: 30
+2016-06-01 14:07:11.748 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540010 - id: 40
+2016-06-01 14:07:11.748 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540020 - id: 10
+2016-06-01 14:07:11.748 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540020 - id: 20
+2016-06-01 14:07:11.748 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540020 - id: 30
+2016-06-01 14:07:11.748 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540020 - id: 40
+2016-06-01 14:07:11.748 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540030 - id: 10
+2016-06-01 14:07:11.776 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540030 - id: 20
+2016-06-01 14:07:11.776 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540030 - id: 30
+2016-06-01 14:07:11.777 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30540030 - id: 40
+2016-06-01 14:07:11.777 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30840010 - id: 10
+2016-06-01 14:07:11.777 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30840010 - id: 20
+2016-06-01 14:07:11.777 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30840010 - id: 30
+2016-06-01 14:07:11.778 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30840010 - id: 40
+2016-06-01 14:07:11.778 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30840020 - id: 10
+2016-06-01 14:07:11.778 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30840020 - id: 20
+2016-06-01 14:07:11.778 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30840020 - id: 30
+2016-06-01 14:07:11.778 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30840020 - id: 40
+2016-06-01 14:07:11.778 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30840020 - id: 50
+2016-06-01 14:07:11.778 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 30840020 - id: 60
+2016-06-01 14:07:11.778 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040010 - id: 10
+2016-06-01 14:07:11.778 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040010 - id: 20
+2016-06-01 14:07:11.778 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040010 - id: 30
+2016-06-01 14:07:11.811 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040010 - id: 40
+2016-06-01 14:07:11.812 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040020 - id: 10
+2016-06-01 14:07:11.812 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040020 - id: 20
+2016-06-01 14:07:11.812 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040020 - id: 30
+2016-06-01 14:07:11.812 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040020 - id: 40
+2016-06-01 14:07:11.812 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040030 - id: 10
+2016-06-01 14:07:11.812 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040030 - id: 20
+2016-06-01 14:07:11.812 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040030 - id: 30
+2016-06-01 14:07:11.813 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40040030 - id: 40
+2016-06-01 14:07:11.813 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240010 - id: 10
+2016-06-01 14:07:11.813 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240010 - id: 20
+2016-06-01 14:07:11.824 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240010 - id: 30
+2016-06-01 14:07:11.824 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240010 - id: 40
+2016-06-01 14:07:11.824 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240020 - id: 10
+2016-06-01 14:07:11.824 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240020 - id: 20
+2016-06-01 14:07:11.825 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240020 - id: 30
+2016-06-01 14:07:11.825 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240020 - id: 40
+2016-06-01 14:07:11.825 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240020 - id: 50
+2016-06-01 14:07:11.825 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240020 - id: 60
+2016-06-01 14:07:11.825 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240030 - id: 10
+2016-06-01 14:07:11.826 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240030 - id: 20
+2016-06-01 14:07:11.826 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240030 - id: 30
+2016-06-01 14:07:11.843 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40240030 - id: 40
+2016-06-01 14:07:11.844 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550010 - id: 10
+2016-06-01 14:07:11.844 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550010 - id: 20
+2016-06-01 14:07:11.844 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550010 - id: 30
+2016-06-01 14:07:11.844 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550010 - id: 40
+2016-06-01 14:07:11.844 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550020 - id: 10
+2016-06-01 14:07:11.844 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550020 - id: 20
+2016-06-01 14:07:11.845 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550020 - id: 30
+2016-06-01 14:07:11.845 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550020 - id: 40
+2016-06-01 14:07:11.846 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550030 - id: 10
+2016-06-01 14:07:11.846 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550030 - id: 20
+2016-06-01 14:07:11.846 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550030 - id: 30
+2016-06-01 14:07:11.846 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40550030 - id: 40
+2016-06-01 14:07:11.846 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850010 - id: 10
+2016-06-01 14:07:11.846 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850010 - id: 20
+2016-06-01 14:07:11.846 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850010 - id: 30
+2016-06-01 14:07:11.847 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850010 - id: 40
+2016-06-01 14:07:11.847 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850020 - id: 10
+2016-06-01 14:07:11.847 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850020 - id: 20
+2016-06-01 14:07:11.847 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850020 - id: 30
+2016-06-01 14:07:11.847 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850020 - id: 40
+2016-06-01 14:07:11.998 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850030 - id: 10
+2016-06-01 14:07:11.998 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850030 - id: 20
+2016-06-01 14:07:11.998 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850030 - id: 30
+2016-06-01 14:07:11.998 Langenscheidt-Sprachkurs[87457:7501782] pearlID: 40850030 - id: 40

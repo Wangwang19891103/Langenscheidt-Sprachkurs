@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UserProgressManagerResetDataPopupView">
+            <rect key="frame" x="0.0" y="0.0" width="304" height="476"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lernstand zurücksetzen?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yW-b7-kKx">
+                    <rect key="frame" x="9" y="12" width="286" height="294"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NR-1S-KNj">
+                    <rect key="frame" x="9" y="317" width="286" height="82"/>
+                    <string key="text">Möchtest Du den gesamten Lernstand samt Punktezahl zurücksetzen? Dabei werden alle Punkte, die Du bisher gesammelt hast, und alle Deine Lernfortschritte unwiderruflich gelöscht.</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIS-zv-4Bh" customClass="RoundedRectButton">
+                    <rect key="frame" x="132" y="421" width="163" height="40"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="ZURÜCKSETZEN">
+                        <color key="titleColor" red="0.0" green="0.59302832250000004" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.0" green="0.59302832250000004" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="actionConfirm:" destination="iN0-l3-epB" eventType="touchUpInside" id="Deg-b7-blI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCF-no-1eq" customClass="RoundedRectButton">
+                    <rect key="frame" x="9" y="421" width="116" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="AJ1-nx-esI"/>
+                        <constraint firstAttribute="width" constant="116" id="gPj-Cx-JTb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <color key="tintColor" red="0.0" green="0.59302832250000004" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="ABBRECHEN">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="actionCancel:" destination="iN0-l3-epB" eventType="touchUpInside" id="D2F-6J-ACF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1NR-1S-KNj" secondAttribute="trailing" constant="9" id="58Q-Qp-vIo"/>
+                <constraint firstItem="aCF-no-1eq" firstAttribute="top" secondItem="1NR-1S-KNj" secondAttribute="bottom" constant="22" id="JOA-bb-962"/>
+                <constraint firstAttribute="bottom" secondItem="aCF-no-1eq" secondAttribute="bottom" constant="15" id="KPf-R9-HU8"/>
+                <constraint firstItem="6yW-b7-kKx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="9" id="P61-nN-DS6"/>
+                <constraint firstItem="1NR-1S-KNj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="9" id="Rg5-Fk-c8H"/>
+                <constraint firstItem="WIS-zv-4Bh" firstAttribute="height" secondItem="aCF-no-1eq" secondAttribute="height" id="aw0-8i-GIa"/>
+                <constraint firstItem="aCF-no-1eq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="9" id="j3s-KR-CPh"/>
+                <constraint firstItem="WIS-zv-4Bh" firstAttribute="leading" secondItem="aCF-no-1eq" secondAttribute="trailing" constant="7" id="jiB-2r-fnt"/>
+                <constraint firstAttribute="trailing" secondItem="WIS-zv-4Bh" secondAttribute="trailing" constant="9" id="sDw-90-mir"/>
+                <constraint firstAttribute="trailing" secondItem="6yW-b7-kKx" secondAttribute="trailing" constant="9" id="t9x-bz-kve"/>
+                <constraint firstItem="6yW-b7-kKx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="tFg-Zm-P29"/>
+                <constraint firstItem="WIS-zv-4Bh" firstAttribute="top" secondItem="aCF-no-1eq" secondAttribute="top" id="uug-ck-C2p"/>
+                <constraint firstItem="1NR-1S-KNj" firstAttribute="top" secondItem="6yW-b7-kKx" secondAttribute="bottom" constant="11" id="zan-vc-Pf3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="278" y="521"/>
+        </view>
+    </objects>
+</document>

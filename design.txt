@@ -1,0 +1,93 @@
+Allgemein
+
+- Farbe des "Weiter"-Buttons (Gelb statt Blau)?
+
+
+VocabFlow
+
+- offen: Design ohne Bilder
+
+
+Lückentext
+
+- beim Start ist keine Lücke aktiv?
+- die erste Lücke soll farblich hervorgehoben werden?
+- Lücken werden der Reihe nachbearbeitet oder können frei wählbar angetippt werden?
+- Überprüfung der Lücken passiert automatisch oder manuell (Prüfen-Button)?
+- Tabellarisch ?
+
+
+MATPIC
+
+- Markierung der richtigen/falschen Antworten durch Blend-Layer oder Rahmen (oder plus Icon)?
+
+
+SNAKE
+
+- konstante zeichenanzahl, immer ziffer 2
+
+
+WIDGET ?
+
+- totale punktzahl und aktuelle lerneinheit (progress)
+
+
+
+
+
+
+
+
+- Übungsstrecken / Navigation / Automatische Weiterleitung
+- Punktesystem
+- Onboarding
+- Eintauchen (Design?)
+- Benutzerregistrierung / Sync
+- Subscription Model / Hosting
+- Google Analytics
+
+
+--------------------------------
+
+1. Screens
+1.1. Onboarding ...
+1.2. Hamburger-Menü
+1.3. Menüs
+1.3.1. Kursmenü
+1.3.2. Lektionsmenü
+1.3.3. Perlenmenü
+1.4. Übungen (x Screens)
+1.5. Punkte-Screen
+1.6. Eintauchen
+
+2. Übungs-Navigation-Controller
+2.1. Leiten von Übung zu Übung
+2.2. Vokabel-Navigation-Controller
+2.3. Übergangsanimationen
+
+3. User-Database
+3.1. Speichern von Punkte-Events
+
+4. Subscription-Model / Hosting
+4.1. Splitting des Contents in Lektionspakete
+4.2. IAP-Manager für Subscriptions
+4.3. Menü zum Verwalten der Download Pakete
+
+5. Benutzerregistrierung / Sync
+5.1. Menü zum Einloggen
+5.2. Menü zum Verwalten des Sync
+
+6. Google Tracking
+6.1. Implementierung von Events in die App
+6.2. Sammeln der Events und periodisches Uploaden
+
+7. Eintauchen
+
+8. iPad + iPhone6 Plus
+
+
+
+
+
+
+

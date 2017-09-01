@@ -1,0 +1,120 @@
+CONTENT-TESTER
+
+- build a static content tester for all exercise types
+
+
+Dialog
+
+- Time delays
+-- 1. between new visual item and audio playback
+-- 2. after audio playing and before keyboard apears
+-- 3. after finishing all textfields and closing keyboard and before next item
+- ! Bug: Layout messed up between inserting items (StackView, colliding constraints with same priority?)
+- Implement all 3 exercise types (random)
+- Narrator bubbles (without audio)
+
+
+LTXT
+
+- punctuation compound (TextView2)
+- compounds of all views that are not seperated by a whitespace ("don'[t]")
+- tabellarisch: same line height
+- tabellarisch: find a way to fit both columns on screen
+- Gap directly after text (without space) needs connection token
+
+
+SCR
+
+- Still bug with calculation of line width (see screenshot)
+
+
+DND
+
+- Retrieve text of correct item from the gap in the script, not the linked vocabulary.
+
+
+
+SNAKE
+
+- Requirements:
+-- if term is a vocabulary and has a prefix, the prefix letters will be uninteractable and at the beginning of the snake
+
+
+MATCHER
+
+- Ghost is slightly (2px) smaller in height than normal label, resulting in rearranging visual interruption
+
+
+LESSON MENU
+
+- line connecting the circles between cells
+
+
+
+GENERAL
+
+- ParseHTML all all texts, not only attributed --> use UILabel -parseHTML
+- Consolidate exercises!
+- Clean Strings from database (e.g. cut trailing spaces, etc)
+- Fade-Effect for scrollviews
+
+
+
+VOCABULARY
+
+- more variation for 1 words (always snake is boring)
+- SNAKE: prefixes
+
+
+
+EXERCISE NAVIGATION CONTROLLER
+
+- keep in mind the CONTENT_BOTTOM_MARGIN depends on other measures!
+
+
+
+USER DB
+
+- population (once or on every start) necessary at all?
+
+
+
+
+!!!!!!!!! TAKE OUT DEV ALERTS
+
+
+
+!!! POTENTIAL PROBLEMS
+
+- LineLayoutView2 in StackView (especially with DialogBubble): trailing (>=right), how does this behave exactly? Seems like right now it produces an okay layout, but i dont understand if fully.
+
+
+---------
+
+Content-Test Version 27.1.2016
+
+- ContentExplorer: for testing static exercises
+- Langenscheid App: for testing vocabularies and dynamic exercises
+- Dialoge
+
+--> need images for MATPIC and audios
+
+
+----------
+
+10.6.16 (RELEASE DAY)
+
+- Display app version, not build version in future releases
+
+
+
+
+-------------
+
+- LTXT: check
+- SCR: check
+- Matcher: check
+- Snake: check
+- MCH: check
+- DND tabular: fix "isnt|wasnt"
+- POPUPS:

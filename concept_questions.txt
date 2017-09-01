@@ -1,0 +1,69 @@
+- Zwischenscreen: "Nächster Kurs, Lektion, Lerneinheit" (auch Kurs) ?
+
+- setzen der DeineLektion schon beim Stöbern/Navigieren --> weil dann sind beide navi controllers immer synchron
+
+
+- last exercise cluster gesetzt schon beim anfangen der ersten exercise (ohne complete)?
+
+
+
+19.4.16
+
+- entering pearl starts  after last completed cluster. BUT what if the user wants to repeat the beginning? He can only do so by completing ALL pearls and then resetting the lesson.
+
+- score screen: "lektion wiederholen", auch "lerneinheit wiederholen"?
+
+
+26.4.16
+
+- vocabs like "check-in-desk" in SNAKE?
+
+
+2.5.2016
+
+- Kein design für toptext bei ltxt -> angenommen selbe schrift wie items
+
+
+10.5.2016
+
+- popups for vocabularies (in script) ?
+
+
+12.5.16
+
+- Helvetica Std macht Probleme mit der Berechnung der Label Höhe im Autolayout?
+
+
+13.5.16
+
+- DownloadManager:
+-- No internet
+-- bad server response
+-- problem unzipping
+-- download in background/lock screen
+-- cleanup of download/temp files
+
+
+17.5.16
+
+- Teaser Content:
+-- needs user db population on first app start
+- Canceling Installation (?)
+- Reset userDB (?)
+- Menu cells, updated twice (?), viewdidappear, cellforrow
+- progress = 0 when not content installed (?) --> when no clusters in userdb
+- automatic navigation --> if next course is not installed --> stay at pearl screen, dont start exercises (update: seems like defalt behaviour is to stay at course screen anyway?)
+- Popups in dialogs not properly split? (islington.html)
+
+
+[[UIWindow keyWindow] _autolayoutTrace]
+
+
+
+
+
+-------- notes
+
+TOPTEXT:
+
+- MATCHER never has toptext

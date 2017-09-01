@@ -1,0 +1,98 @@
+1. When to check for subscription?
+
+- on every app start (not enough, because ppl can just leave the app open indefinately)
+- everytime the app enters foreground (better)
+
+
+2. Error Handling
+
+- cant make payments (parent restriction, etc.)
+
+
+3. Loading the Shop requires internet connection (loading products)
+
+- need messages for cases
+
+
+
+4. Events
+
+general
+- no intarweb
+
+products
+- loaded Products
+- failed to load Products (server error)
+
+payments / purchase
+- started purchase
+- finished purchase
+- failed purchase
+
+receipt validation
+- receipt validated
+- receipt not valid
+- failed to validate (server error)
+- no receipt found
+
+
+
+5. After Purchased Event
+
+- check if receipt url exists
+- if not, send refresh request
+- proceed with receipt validation
+
+6. Periodically check receipt for new expiration date
+
+- how often? x days before current expiration?
+- check if expiration date is present in settings (easy check, no need to validate receipt every time)
+
+
+7. Encrypting expiration date
+
+
+8. Receipt refresh request
+
+- will trigger the login dialog!!!
+
+
+20. IMPORTANT
+
+- change receipt validation URL in production version from "sandbox" to "buy"
+- take out updating date when purchase failed (for testing)
+
+
+-------------------------------
+
+Testing mit 2 Devices
+
+- Auf beiden Devices wird derselbe itunes test user verwendet
+- Auf beiden Devices wurde das expiration date einmal angelegt (validation), auf einem durch restore function
+- Wenn ich auf einem Device ein abo verlängere (purchase), dann wird es automatisch auf dem anderen device sichtbar (ohne neustart), wohl einfach durch receipt validation. Das heisst, dass das betriebssystem das receipt selbständig erneuert/auf dem aktuellen stand hält.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Hauptmenü</string>
+		<key>credits</key>
+		<string>Michaelpuche – iStockphoto</string>
+		<key>imageFile</key>
+		<string>EN_00_00_START_stock-photo-76229923-posting-postcard.jpg</string>
+	</dict>
+</array>
+</plist>

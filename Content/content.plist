@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>courses</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>10</integer>
+			<key>title</key>
+			<string>Basics</string>
+			<key>downloadFile</key>
+			<string>english_course_01.zip</string>
+			<key>folderName</key>
+			<string>course01</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>20</integer>
+			<key>title</key>
+			<string>Aufbaukurs für jeden Tag</string>
+			<key>downloadFile</key>
+			<string>english_course_02.zip</string>
+			<key>folderName</key>
+			<string>course02</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>30</integer>
+			<key>title</key>
+			<string>Aufbaukurs für die Reise</string>
+			<key>downloadFile</key>
+			<string>english_course_03.zip</string>
+			<key>folderName</key>
+			<string>course03</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>40</integer>
+			<key>title</key>
+			<string>Business English</string>
+			<key>downloadFile</key>
+			<string>english_course_04.zip</string>
+			<key>folderName</key>
+			<string>course04</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>productID</key>
+		<string>DIG0000600</string>
+		<key>title</key>
+		<string>1 WOCHE</string>
+		<key>longTitle</key>
+		<string>Englisch Sprachkurs - 1 Woche (Early Bird)</string>
+		<key>description</key>
+		<string>Abbuchung jede Woche</string>
+		<key>months</key>
+		<integer>0</integer>
+		<key>isEarlyBird</key>
+		<true/>
+	</dict>
+</array>
+</plist>

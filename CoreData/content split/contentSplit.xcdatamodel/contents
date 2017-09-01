@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="Course" representedClassName="Course" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoCredits" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoCreditsTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lessons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Lesson" inverseName="course" inverseEntity="Lesson" syncable="YES"/>
+    </entity>
+    <entity name="DialogLine" representedClassName="DialogLine" syncable="YES">
+        <attribute name="audioFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="audioRange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="popupFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="speaker" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textLang1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textLang2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vocabularyIDs" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="dialogLines" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <entity name="Exercise" representedClassName="Exercise" syncable="YES">
+        <attribute name="audioFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="audioRange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="explanation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="instruction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="popupFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="cluster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ExerciseCluster" inverseName="exercises" inverseEntity="ExerciseCluster" syncable="YES"/>
+        <relationship name="dialogLines" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DialogLine" inverseName="exercise" inverseEntity="DialogLine" syncable="YES"/>
+        <relationship name="lines" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ExerciseLine" inverseName="exercise" inverseEntity="ExerciseLine" syncable="YES"/>
+    </entity>
+    <entity name="ExerciseCluster" representedClassName="ExerciseCluster" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pearlID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="exercises" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exercise" inverseName="cluster" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <entity name="ExerciseLine" representedClassName="ExerciseLine" syncable="YES">
+        <attribute name="field1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="field2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="field3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="field4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="field5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="lines" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <entity name="Lesson" representedClassName="Lesson" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isTeaser" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="photoCredits" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoCreditsTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="course" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Course" inverseName="lessons" inverseEntity="Course" syncable="YES"/>
+        <relationship name="pearls" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pearl" inverseName="lesson" inverseEntity="Pearl" syncable="YES"/>
+    </entity>
+    <entity name="Pearl" representedClassName="Pearl" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lesson" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Lesson" inverseName="pearls" inverseEntity="Lesson" syncable="YES"/>
+    </entity>
+    <entity name="Vocabulary" representedClassName="Vocabulary" syncable="YES">
+        <attribute name="audioFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pearlID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="photoCredits" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="popupFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prefixLang1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prefixLang2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textLang1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textLang2" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <configuration name="exercises">
+        <memberEntity name="ExerciseCluster"/>
+        <memberEntity name="Exercise"/>
+        <memberEntity name="ExerciseLine"/>
+        <memberEntity name="DialogLine"/>
+        <memberEntity name="Vocabulary"/>
+        <memberEntity name="Pearl"/>
+    </configuration>
+    <configuration name="structure">
+        <memberEntity name="Course"/>
+        <memberEntity name="Lesson"/>
+        <memberEntity name="Pearl"/>
+    </configuration>
+    <elements>
+        <element name="Course" positionX="2691" positionY="302" width="128" height="135"/>
+        <element name="DialogLine" positionX="2941" positionY="522" width="128" height="180"/>
+        <element name="Exercise" positionX="3186" positionY="630" width="128" height="208"/>
+        <element name="ExerciseCluster" positionX="3184" positionY="486" width="128" height="90"/>
+        <element name="ExerciseLine" positionX="2934" positionY="729" width="128" height="148"/>
+        <element name="Lesson" positionX="2934" positionY="297" width="128" height="165"/>
+        <element name="Pearl" positionX="3184" positionY="312" width="128" height="88"/>
+        <element name="Vocabulary" positionX="3373" positionY="239" width="128" height="195"/>
+    </elements>
+</model>

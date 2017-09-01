@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="laa-pA-jmP" customClass="FadeView">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
+                                <subviews>
+                                    <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ywa-Bh-oPH">
+                                        <rect key="frame" x="0.0" y="101" width="328" height="467"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smC-y5-To6">
+                                                <rect key="frame" x="0.0" y="0.0" width="328" height="741"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkd-eg-lff">
+                                                        <rect key="frame" x="20" y="20" width="288" height="701"/>
+                                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.
+ Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.
+
+Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="hkd-eg-lff" secondAttribute="trailing" constant="20" id="3hO-FV-FZo"/>
+                                                    <constraint firstItem="hkd-eg-lff" firstAttribute="leading" secondItem="smC-y5-To6" secondAttribute="leading" constant="20" id="CN1-Vl-cTH"/>
+                                                    <constraint firstAttribute="bottom" secondItem="hkd-eg-lff" secondAttribute="bottom" constant="20" id="ab3-hZ-wwI"/>
+                                                    <constraint firstItem="hkd-eg-lff" firstAttribute="top" secondItem="smC-y5-To6" secondAttribute="top" constant="20" id="hc9-Oh-8ag"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="smC-y5-To6" firstAttribute="top" secondItem="Ywa-Bh-oPH" secondAttribute="top" id="OYV-cC-LNX"/>
+                                            <constraint firstAttribute="bottom" secondItem="smC-y5-To6" secondAttribute="bottom" id="VRL-Ly-kup"/>
+                                            <constraint firstAttribute="trailing" secondItem="smC-y5-To6" secondAttribute="trailing" id="Wvb-qb-3BU"/>
+                                            <constraint firstItem="smC-y5-To6" firstAttribute="leading" secondItem="Ywa-Bh-oPH" secondAttribute="leading" id="Zis-eV-YnK"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="smC-y5-To6" firstAttribute="width" secondItem="laa-pA-jmP" secondAttribute="width" id="5LM-nQ-LQk"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ywa-Bh-oPH" secondAttribute="bottom" id="6Yb-A6-hf6"/>
+                                    <constraint firstItem="Ywa-Bh-oPH" firstAttribute="leading" secondItem="laa-pA-jmP" secondAttribute="leading" id="RPg-QY-xaM"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ywa-Bh-oPH" secondAttribute="trailing" id="bvH-rY-y80"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="adjustmentTopLimit">
+                                        <real key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="adjustmentBottomLimit">
+                                        <real key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minimumAlpha">
+                                        <real key="value" value="0.029999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="adjustmentTopReach">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="adjustmentBottomReach">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="bottomLimitView" destination="23f-DV-u4d" id="qQN-UG-Xtv"/>
+                                    <outlet property="topLimitView" destination="5E4-Cj-391" id="fBb-LK-T3r"/>
+                                    <outlet property="viewToFade" destination="Ywa-Bh-oPH" id="NfT-Zq-iew"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5E4-Cj-391">
+                                <rect key="frame" x="20" y="20" width="280" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23f-DV-u4d">
+                                <rect key="frame" x="60" y="508" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.18823529410000001" green="0.60784313729999995" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="LMz-uF-JLh"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.97222222219999999" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="laa-pA-jmP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="7qg-WZ-Pi0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="laa-pA-jmP" secondAttribute="trailing" constant="-20" id="9gt-0D-JPb"/>
+                            <constraint firstAttribute="trailing" secondItem="5E4-Cj-391" secondAttribute="trailing" constant="20" id="Gha-Ko-g4R"/>
+                            <constraint firstAttribute="trailing" secondItem="23f-DV-u4d" secondAttribute="trailing" constant="60" id="Mwp-Zg-YVE"/>
+                            <constraint firstItem="5E4-Cj-391" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="RkJ-hl-uQo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="laa-pA-jmP" secondAttribute="bottom" id="cJl-u5-H63"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="23f-DV-u4d" secondAttribute="bottom" constant="20" id="dMI-Up-2FX"/>
+                            <constraint firstItem="laa-pA-jmP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="hnG-4H-IFK"/>
+                            <constraint firstItem="5E4-Cj-391" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="jOj-pU-q7M"/>
+                            <constraint firstItem="23f-DV-u4d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="nq8-Ba-4n4"/>
+                            <constraint firstItem="Ywa-Bh-oPH" firstAttribute="top" secondItem="5E4-Cj-391" secondAttribute="bottom" constant="20" id="uDa-hD-Ccd"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="388" y="443"/>
+        </scene>
+    </scenes>
+</document>

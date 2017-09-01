@@ -1,0 +1,22 @@
+1.
+- hallo wiederholung
+- completed pearl 1 and 3
+- hit fortsetzen
+- lead to exercises for small talk 1 pearl 1 (correct)
+- went to score screen but did not hit next but instead hit back
+- BUG: kurse: navigation stack didnt update to small talk 1 but stayed at hallo wiederholung
+- REASON: populate stack only occurs when hitting next on score screen
+
+
+- Dialog crash: business english email 1 und 2 (no speakers)
+- DIalog: tap on popup button while audio playing -> keyboard popups up during popup
+- Dialog: DND insert -> bouncy animation sucks
+
+
+- popup icon intersects with title: basics - small talk grammatik - adverbien - 2/4 matcher
+
+- download in background doesnt proceed
+
+- populate user db cant enter background, trying locks home button, produces crash
+
+- MATPIC spamming tap during animations -> crash

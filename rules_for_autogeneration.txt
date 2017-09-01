@@ -1,0 +1,35 @@
+MATPIC
+
+- Wenn alle Vokabeln ein Bild haben
+
+
+Matcher
+
+- wenn eine Vokabel kein Bild hat
+
+
+LTXT Standard / Custom
+
+- immer möglich?
+- wahrscheinlich bei "Kurzer Satz"
+
+
+Schlange
+
+- wenn Vokabel ein "Wort" ist
+
+
+SCR
+
+- wenn Vokabel ein "Langer Satz" ist
+
+
+
+
+
+Definitionen:
+
+- Wort : einzelnes Wort mit oder ohne prefix mit oder ohne Satzzeichen
+- kurzer Satz : maximal 2 Wörter mit oder ohne Satzzeichen
+- langer Satz : mehr als 2 Wörter
+

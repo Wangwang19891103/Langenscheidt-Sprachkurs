@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>productID</key>
+		<string>DIG0000549</string>
+		<key>title</key>
+		<string>1 MONAT</string>
+		<key>longTitle</key>
+		<string>Englisch Sprachkurs - 1 Monat</string>
+		<key>description</key>
+		<string>Abbuchung jeden Monat</string>
+		<key>months</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>productID</key>
+		<string>DIG0000550</string>
+		<key>title</key>
+		<string>3 MONATE</string>
+		<key>longTitle</key>
+		<string>Englisch Sprachkurs - 3 Monate</string>
+		<key>description</key>
+		<string>Abbuchung alle 3 Monate</string>
+		<key>months</key>
+		<integer>3</integer>
+		<key>isTopSeller</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>productID</key>
+		<string>DIG0000551</string>
+		<key>title</key>
+		<string>6 MONATE</string>
+		<key>longTitle</key>
+		<string>Englisch Sprachkurs - 6 Monate</string>
+		<key>description</key>
+		<string>Abbuchung alle 6 Monate</string>
+		<key>months</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>productID</key>
+		<string>TEMPID</string>
+		<key>title</key>
+		<string>12 MONATE</string>
+		<key>longTitle</key>
+		<string>Englisch Sprachkurs - 12 Monate</string>
+		<key>description</key>
+		<string>Abbuchung alle 12 Monate</string>
+		<key>months</key>
+		<integer>12</integer>
+		<key>isTopPrice</key>
+		<true/>
+	</dict>
+</array>
+</plist>

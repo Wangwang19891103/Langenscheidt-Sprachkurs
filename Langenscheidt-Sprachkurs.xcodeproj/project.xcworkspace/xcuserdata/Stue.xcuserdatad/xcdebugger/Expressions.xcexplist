@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ScrambledLettersInputViewController viewDidLayoutSubviews]:ScrambledLettersInputViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.collectionView.collectionViewLayout.collectionViewContentSize">
+            </PersistentString>
+            <PersistentString
+               value = "self.inputView.inputViewStyle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CourseViewController viewDidLayoutSubviews]:CourseViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tableView.tableHeaderView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FadeView _layoutLayers]:FadeView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_maskLayer.contents">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DialogBubbleCell setBubble:]:DialogBubbleCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contentView.layoutMargins">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PearlMenuCell updateView]:PearlMenuCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.titleLabel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DialogViewController2 _insertNextItem]:DialogViewController2.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.subviews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ExerciseNavigationController viewDidLoad]:ExerciseNavigationController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ExerciseNavigationController _setScrollSeparatorsVisible:]:ExerciseNavigationController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_currentExerciseViewController.view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DialogViewController2 _scrollToVisibleIfNeeded]:DialogViewController2.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scrollView.contentSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ExerciseTextView createView]:ExerciseTextView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.layer">
+            </PersistentString>
+            <PersistentString
+               value = "self.subviews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Exercise_Dialog_ViewController2 tableView:willDisplayCell:forRowAtIndexPath:]:Exercise_Dialog_ViewController2.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_correctionView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

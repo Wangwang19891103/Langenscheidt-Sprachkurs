@@ -1,0 +1,11 @@
+framework module GATracking {
+
+    header "GATracking.h"
+
+    explicit module UIViewControllerIntegration {
+     
+        header "UIViewController+GATracking.h"
+        header "GATrackingUIViewControllerIntegration.h"
+    }
+    
+}

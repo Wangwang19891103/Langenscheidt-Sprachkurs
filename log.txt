@@ -1,0 +1,8 @@
+12.4.
+
+- TECH: user db: added run attribute for UserLesson
+- TECH: problem found in content db: pearl id for dialogs start at 10 and overlap with vocabulary ids starting at 10 as well. i.e. pearls are not continuous.
+-> TECH: fix: added ID ranges for vocabulary, dialog, grammar and repetition pearls (10000 - 40000)
+- CONCEPT: in vocabulary pearls, auto generated exercises are added as independant exercise, each with its own cluster
+- TECH: content db: added cluster +  exercise(s) for random generated vocb exercises
+- TECH: added 2 new exercise types: RANDOM_VOC_SINGLE, _MULTIPLE

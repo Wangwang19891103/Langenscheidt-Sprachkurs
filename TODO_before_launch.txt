@@ -1,0 +1,3 @@
+- receipt validation URL (sandbox to buy)
+- HelpViewController: support email addresse
+- no devs settings

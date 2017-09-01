@@ -1,0 +1,324 @@
+// settings
+
+;;ignore_newline                    = NO ;
+;;case_sensitive                    = YES ;
+
+
+// general productions
+
+newline                             = ? newline ? ;
+separator                           = "~" ;
+separators                          = { separator } ;
+number                              = ? decimal ? ;
+text                                = ? all - newline - '~' ? ;
+fileName                            = ? alphabetic + decimal + whitespace + '_' + '.' + '-' ? ;
+anything                            = ? all ? ;
+anything_but_newline                = ? all - newline ? ;
+
+
+
+// ------------------- main ----------------------
+
+main                                = kurse | lektionen | vokabeln | dialoge | grammar | uebungen ;
+
+
+// ******** TODO *******
+//
+// Lektionen: make imageFile mandatory
+// Newlines im Excel entfernen oder anders handhaben im importer. z.b. vokabeln "NICHT SNAKE" oder irgendwo da
+// dialoge, 96
+//
+// *********************
+
+
+
+
+// ------------------- kurse ----------------------
+
+// Kurs-ID|Titel|Bilddatei|Kommentar
+// Kurs-ID~Titel~Bilddatei~Bilddateinmane Nachweis~Bildnachweis~Kommentar
+
+
+@kurse =
+
+$(sheetType)"Kurse" , anything_but_newline , newline ,
+separators , newline ,
+{ text | separator } , newline ,
+separators , newline ,
+kurse_content ;
+
+
+#(content)kurse_content = { kurse_content_line } ;
+
+
+@kurse_content_line =
+
+$(id)number , separator ,
+$(title)text , separator ,
+$(imageFile)text , separator ,
+[ $(photoCreditsTitle)text ] , separator ,
+[ $(photoCredits)text ] , separator ,
+[text] ,
+newline ;
+
+
+
+
+// ------------------- lektionen ----------------------
+
+// Kurs-ID|Kurs-Titel|Lektions-ID|Lektions-Titel|Bilddatei|Kommentar
+// Kurs-ID~Kurs-Titel~Lektions-ID~Lektions-Titel~Bilddatei~Kommentar~Tag
+// Kurs-ID~Kurs-Titel~Lektions-ID~Lektions-Titel~Bilddatei~Kommentar~Tag
+// Kurs-ID~Kurs-Titel~Lektions-ID~Lektions-Titel~Bilddatei~Bildname Nachweis~Bildnachweis~Tag
+// Kurs-ID~Kurs-Titel~Lektions-ID~Lektions-Titel~Teaser~Bilddatei~Bildname Nachweis~Bildnachweis~Tag
+
+
+@lektionen =
+
+$(sheetType)"Lektionen" , anything_but_newline , newline ,
+separators , newline ,
+{ text | separator } , newline ,
+lektionen_content ;
+
+
+#(content)lektionen_content = { lektionen_content_line | lektionen_content_empty_line } ;
+
+
+@lektionen_content_line =
+
+[ $(courseID)number ] , separator ,
+[ text ] , separator ,
+[ $(lessonID)number ] , separator ,
+[ $(lessonTitle)text ] , separator ,
+&set_if2(teaser, "yes", [ "X" | "x" ]) , separator ,
+[ $(imageFile)text ] , separator ,
+[ $(photoCreditsTitle)text ] , separator ,
+[ $(photoCredits)text ] , separator ,
+[ text ] ,
+newline ;
+
+
+lektionen_content_empty_line = separator , "#NV" , separators , newline ;
+
+
+
+
+// ------------------- vokabeln ----------------------
+
+// Lektion-ID|Kurs-Titel|Lektion-Titel|Vokabel-Chunk-ID (durchgehend, global)|Perlen-Name (optional)|Vokabel-ID (durchgehend, global)|Prefix Fremdsprache|Vokabel Fremdsprache|Prefix Deutsch|Vokabel Deutsch|NICHT MATPIC|NICHT Schlange|NICHT Drag&Drop|NICHT LTXT Custom Keyboard|NICHT Scrambled Sentences|Bild-Dateiname|Audio-Dateiname|Popup (Kultur, Wortschatz)|Kommentar
+
+// Lektion-ID~Kurs-Titel~Lektion-Titel~Vokabel-Chunk-ID (durchgehend, global)~Perlen-Name (optional)~Vokabel-ID (durchgehend, global)~Prefix Fremdsprache~Vokabel Fremdsprache~Prefix Deutsch~Vokabel Deutsch~NICHT MATPIC~NICHT Schlange~NICHT Drag&Drop~NICHT LTXT Custom Keyboard~NICHT Scrambled Sentences~Bild-Dateiname~Audio-Dateiname~Popup (Kultur, Wortschatz)~Kommentar~Bildnachweis~
+
+// Lektion-ID~Kurs-Titel~Lektion-Titel~Vokabel-Chunk-ID (durchgehend, global)~Perlen-Name (optional)~Vokabel-ID (durchgehend, global)~Prefix Fremdsprache~Vokabel Fremdsprache~~Prefix Deutsch~Vokabel Deutsch~NICHT MATPIC~NICHT Schlange~NICHT Drag&Drop~NICHT LTXT Custom Keyboard~NICHT Scrambled Sentences~Bild-Dateiname~Audio-Dateiname~Popup (Kultur, Wortschatz)~Kommentar~Bildnachweis~Kommenar Lisa~TTS vom 26.04.2016~App-Absturz~TTS 18.05
+
+// Lektion-ID~Kurs-Titel~Lektion-Titel~Vokabel-Chunk-ID (durchgehend, global)~Perlen-Name (optional)~Vokabel-ID (durchgehend, global)~Prefix Fremdsprache~Vokabel Fremdsprache~~Prefix Deutsch~Vokabel Deutsch~NICHT MATPIC~NICHT Schlange~NICHT Drag&Drop~NICHT LTXT Custom Keyboard~NICHT Scrambled Sentences~Bild-Dateiname~Audio-Dateiname~Popup (Kultur, Wortschatz)~Kommentar~Bildnachweis~Kommenar Lisa~TTS vom 26.04.2016~App-Absturz~TTS 18.05.~TTS 20.05.~Popups Prüfung
+
+
+@vokabeln =
+
+$(sheetType)"Vokabeln" , anything_but_newline , newline ,
+separators , newline ,
+{ text | separator } , newline ,
+vokabeln_content ;
+
+
+#(content)vokabeln_content = { vokabeln_content2 } ;
+vokabeln_content2! = vokabeln_content_line | vokabeln_content_empty_line ;
+
+
+@vokabeln_content_line =
+
+[ $(lessonID)number ] , separator ,
+[ text ] , separator ,
+[ text ] , separator ,
+[ $(chunkID)number ] , separator ,
+[ $(pearlTitle)text ] , separator ,
+$(vocabularyID)number , separator ,
+[ $(prefixLang1)text ] , separator ,
+[ $(vocabularyLang1) text ] , separator ,
+[ text ] , separator ,
+[ $(prefixLang2)text ] , separator ,
+[ $(vocabularyLang2) text ] , separator ,
+vokabeln_content_line_exclusion_block ,
+[ $(imageFile)text ] , separator ,
+[ $(audioFile)text ] , separator ,
+[ $(popupFile)text ] , separator ,
+[ text ] , separator ,
+[ $(photoCredits)text ] , separator ,
+anything_but_newline ,
+newline ;
+
+
+@(excludes)vokabeln_content_line_exclusion_block =
+
+&set_if2(MATPIC, "1", ( [ "X" | "x" ] , separator ) ) ,
+&set_if2(SNAKE, "1", ( [ "X" | "x" ] , separator ) ) ,
+&set_if2(DND, "1", ( [ "X" | "x" ] , separator ) ) ,
+&set_if2(LTXT_CUSTOM, "1", ( [ "X" | "x" ] , separator ) ) ,
+&set_if2(SCR, "1", ( [ "X" | "x" ] , separator ) ) ;
+
+
+vokabeln_content_empty_line = separator , [ "#NV" ] ,  separator , [ "#NV" ] , separators , newline ;
+
+
+
+
+// ------------------- dialoge ----------------------
+
+
+
+// Lektion-ID|Kurs-Titel|Lektion-Titel|Dialog-ID (relativ zur Lektion)|Perlen-Name (optional)|Sprecher|Text Fremdsprache|Text Deutsch|Vokabel-ID (optional, aber benötigt für Drag&Drop)|Audio-Datei Fremdsprache|Popup (Kultur, Wortschatz)|Kommentar
+
+// Lektion-ID~Kurs-Titel~Lektion-Titel~Dialog-ID (relativ zur Lektion)~Perlen-Name (optional)~Sprecher~Text Fremdsprache~Text Deutsch~Vokabel-ID (optional, aber benötigt für Drag&Drop)~Audio-Datei Fremdsprache~Audio Zeitabschnitt~Popup (Kultur, Wortschatz)~Kommentar
+
+// Lektion-ID~Kurs-Titel~Lektion-Titel~Dialog-ID (relativ zur Lektion)~Perlen-Name (optional)~Sprecher~Text Fremdsprache~Text Deutsch~Vokabel-ID (optional, aber benötigt für Drag&Drop)~Audio-Datei Fremdsprache~Audio Zeitabschnitt~Popup (Kultur, Wortschatz)~Kommentar~Korrekturen L~Feedback M
+
+
+@dialoge =
+
+$(sheetType)"Dialoge" , anything_but_newline , newline ,
+separators , newline ,
+{ text | separator } , newline ,
+dialoge_content ;
+
+
+#(content)dialoge_content = { dialoge_content2 } ;
+dialoge_content2! = dialoge_content_line | dialoge_content_empty_line ;
+
+@dialoge_content_line =
+
+[ $(lessonID)number ] , separator ,
+text , separator ,
+text , separator ,
+[ $(pearlID)number ] , separator ,
+[ $(pearlTitle)text ] , separator ,
+[ $(speaker)text ] , separator ,
+$(textLang1)text , separator ,
+$(textLang2)text , separator ,
+[ $(vocabularyIDString)text ] , separator ,
+[ $(audioFile)text ] , separator ,
+[ $(audioRange)text ] , separator ,
+[ $(popupFile)text ] ,
+{ separator , [ text ] } ,
+newline ;
+
+
+dialoge_content_empty_line = separator , "#NV" , separator , "#NV" , separators , newline ;
+
+
+
+
+// ------------------- grammatik-übungen ----------------------
+
+
+
+// Lektion-ID|Kurs-Titel|Lektion-Titel|Perlen-ID (relativ zur Lektion)|Perlen-Name|Übungs-ID (relativ zur Perle)|Arbeitsanweisung|Zwischentext|Feld 1|Feld 2|Feld 3|Feld 4|Feld 5|Lücken-text Standard|Lücken-text Custom|Lücken-text tabell-arisch?|Vocab-flow|Matcher|Schlange|Drag & Drop|Multiple Choice|Srambled Sentences|Popup (Kultur, Wortschatz)|Kommentar
+
+// Lektion-ID~Kurs-Titel~Lektion-Titel~Perlen-ID (relativ zur Lektion)~Perlen-Name~Übungs-ID (relativ zur Perle)~Arbeitsanweisung~Zwischentext~Feld 1~Feld 2~Feld 3~Feld 4~Feld 5~Lücken-text Standard~Lücken-text Custom~Lücken-text tabell-arisch?~Vocab-flow~Matcher~Schlange~Drag & Drop~Multiple Choice~Srambled Sentences~Popup (Kultur, Wortschatz)~Kommentar
+
+// Lektion-ID~Kurs-Titel~Lektion-Titel~Perlen-ID (relativ zur Lektion)~Perlen-Name~Übungs-ID (relativ zur Perle)~Arbeitsanweisung~Grammatik Erklärung~Zwischentext~Feld 1~Feld 2~Feld 3~Feld 4~Feld 5~Lücken-text Standard~Lücken-text Custom~Lücken-text tabell-arisch?~Vocab-flow~Matcher~Schlange~Drag & Drop~Multiple Choice~Srambled Sentences~Popup (Kultur, Wortschatz)~Kommentar ~Kommentar Content L, Korrektur durch L~Feedback an M~Feedback SU 17.2.16
+
+
+
+@grammar =
+
+$(sheetType)"Grammatik" , anything_but_newline , newline ,
+separators , newline ,
+{ text | separator } , newline ,
+grammar_content ;
+
+
+#(content)grammar_content = { grammar_content_line | grammar_content_empty_line } ;
+
+
+@grammar_content_line =
+
+[ $(lessonID)number ] , separator ,
+[ text ] , separator ,
+[ text ] , separator ,
+[ $(pearlID)number ] , separator ,
+[ $(pearlTitle)text ] , separator ,
+[ $(exerciseID)number ] , separator ,
+[ $(instruction)text ] , separator ,
+[ $(explanation)text ] , separator ,
+[ $(topText)text ] , separator ,
+[ $(field1)text ] , separator ,
+[ $(field2)text ] , separator ,
+[ $(field3)text ] , separator ,
+[ $(field4)text ] , separator ,
+[ $(field5)text ] , separator ,
+&set_if2(exerciseType, "LTXT_STANDARD", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "LTXT_CUSTOM", [ "X" | "x" ]) , separator ,
+&set_if2(tabular, "1", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "VOCABFLOW", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "MATCHER", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "SNAKE", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "DND", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "MCH", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "SCR", [ "X" | "x" ]) , separator ,
+[ $(popupFile)text ] ,
+{ separator , [ text ] } ,
+newline ;
+
+
+grammar_content_empty_line = separator , "#NV" , separator , "#NV" , separators , newline ;
+
+
+
+
+// ------------------- wiederholung/TEST-übungen ----------------------
+
+
+
+// Lektion-ID~Kurs-Titel~Lektion-Titel~Perlen-ID (relativ zur Lektion)~Perlen-Name~Übungs-ID (relativ zur Perle)~Arbeitsanweisung~Zwischentext~Feld 1~Feld 2~Feld 3~Feld 4~Feld 5~Audio-Datei(en)~Audio Zeitabschnitt~Popup (Kultur, Wortschatz)~Lücken-text Standard~Lücken-text Custom~Drag & Drop~Lücken-text / D&D tabell-arisch?~MATPIC~Matcher~Schlange~Multiple Choice~Srambled Sentences~Kommentar
+
+
+
+@uebungen =
+
+$(sheetType)"Übungen" , anything_but_newline , newline ,
+separators , newline ,
+{ text | separator } , newline ,
+uebungen_content ;
+
+
+#(content)uebungen_content = { uebungen_content_line | uebungen_content_empty_line } ;
+
+
+@uebungen_content_line =
+
+[ $(lessonID)number ] , separator ,
+text , separator ,
+text , separator ,
+[ $(pearlID)number ] , separator ,
+[ $(pearlTitle)text ] , separator ,
+[ $(exerciseID)number ] , separator ,
+[ $(instruction)text ] , separator ,
+[ $(topText)text ] , separator ,
+[ $(field1)text ] , separator ,
+[ $(field2)text ] , separator ,
+[ $(field3)text ] , separator ,
+[ $(field4)text ] , separator ,
+[ $(field5)text ] , separator ,
+[ $(audioFile)text ] , separator ,
+[ $(audioRange)text ] , separator ,
+[ $(popupFile)text ] , separator ,
+&set_if2(exerciseType, "LTXT_STANDARD", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "LTXT_CUSTOM", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "DND", [ "X" | "x" ]) , separator ,
+&set_if2(tabular, "1", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "MATPIC", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "MATCHER", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "SNAKE", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "MCH", [ "X" | "x" ]) , separator ,
+&set_if2(exerciseType, "SCR", [ "X" | "x" ]) , 
+{ separator , [ text ] } ,
+newline ;
+
+
+uebungen_content_empty_line = separator , "#NV" , separator , "#NV" , separators , newline ;
+
+
+
+
+

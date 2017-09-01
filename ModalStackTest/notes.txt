@@ -1,0 +1,12 @@
+cases:
+
+- present on normal VC
+
+- present on navigation C
+
+- both shud work with presentationStyle = custom
+
+
+TODO:
+
+- addViewController withCompletionBlock

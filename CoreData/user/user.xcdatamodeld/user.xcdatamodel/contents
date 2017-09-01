@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="UserCourse" representedClassName="UserCourse" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="lessons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserLesson" inverseName="course" inverseEntity="UserLesson" syncable="YES"/>
+    </entity>
+    <entity name="UserExerciseCluster" representedClassName="UserExerciseCluster" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="run" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="events" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserExerciseClusterEvent" inverseName="cluster" inverseEntity="UserExerciseClusterEvent" syncable="YES"/>
+        <relationship name="pearl" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserPearl" inverseName="clusters" inverseEntity="UserPearl" syncable="YES"/>
+    </entity>
+    <entity name="UserExerciseClusterEvent" representedClassName="UserExerciseClusterEvent" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="maxScore" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="run" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="cluster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserExerciseCluster" inverseName="events" inverseEntity="UserExerciseCluster" syncable="YES"/>
+    </entity>
+    <entity name="UserLesson" representedClassName="UserLesson" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isCurrentLesson" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="run" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="course" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserCourse" inverseName="lessons" inverseEntity="UserCourse" syncable="YES"/>
+        <relationship name="pearls" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserPearl" inverseName="lesson" inverseEntity="UserPearl" syncable="YES"/>
+    </entity>
+    <entity name="UserPearl" representedClassName="UserPearl" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="clusters" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserExerciseCluster" inverseName="pearl" inverseEntity="UserExerciseCluster" syncable="YES"/>
+        <relationship name="lesson" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserLesson" inverseName="pearls" inverseEntity="UserLesson" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="UserExerciseCluster" positionX="-36" positionY="9" width="128" height="120"/>
+        <element name="UserExerciseClusterEvent" positionX="-27" positionY="63" width="128" height="120"/>
+        <element name="UserLesson" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="UserPearl" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="UserCourse" positionX="-54" positionY="72" width="128" height="90"/>
+    </elements>
+</model>
